@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> PerfTractor - History</title>
+
+        <link rel="stylesheet" href="assets/plugins/w3.css" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+            .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+            @media only screen and (max-width: 1920px) {
+                .w3-content{max-width: 1500px;}
+            }
+            @media only screen and (max-width: 1400px) {
+                .w3-content{max-width: 1200px;}
+            }
+            section.zero{background-color: #1c1f22 !important; color: #fefefe;}
+            .w3-border-light-gray {
+                border-color: #eee !important;
+                border-width: 3px !important;
+            }
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+        </style>
+
+    </head>
+    <body>
+        <section class="zero w3-container">
+            <!--            <div class="w3-bar" id="myNavbar" >
+                            <a href="https://perftractor.xyz/" class="w3-bar-item w3-wide">
+                                <img class="w3-image w3-responsive" src="ptlogo.svg" alt="Logo" style="min-width: 250px; max-width: 250px;"/>
+                            </a>
+                        </div>-->
+            <div class="w3-content"> 
+                <h1 class="w3-xlarge">PerfTractor - Frequently Asked Questions</h1>
+
+            </div>
+        </section>
+
+<div class="w3-container">
+<h2>Frequently Asked Questions</h2>
+<p>Please read below FAQs before you start using PerfTractor tools.</p>
+<button class="accordion">What is PerfTractor?</button>
+<div class="panel">
+  <p>PerfTractor is a suite of simple tools which helps performance testers and managers. You can compare the performance testing tools pricing and application performance monitoring pricing details. Also, it supports following calculators: how many Vusers do you need, how many unique test you need, how much pacing do you need, and how many load generators you may need for your performance testing. </p>
+</div>
+
+<button class="accordion">How many tools listed in PerfTractor?</button>
+<div class="panel">
+  <p>There are more than 50 tools and solutions listed in PerfTractor. If I stumble upon any tools, I will be listing it immediately.</p>
+</div>
+
+<button class="accordion">Is the pricing accurate?</button>
+<div class="panel">
+  <p>Yes and No. I update the pricing at least monthly once. If the tool pricing changed in between my update, then PerfTractor is not responsible :). Pricing is just for a reference and may not be accurate. These pricing excludes any corporate offers, discounts, promo offers etc.</p>
+</div>
+
+<button class="accordion">I found a bug.</button>
+<div class="panel">
+  <p>Great. Please submit the details <a href="http://www.openvoyce.com/products/perftractor" target="_blank">here</a></p>
+</div>
+
+<button class="accordion">I have a suggestion.</button>
+<div class="panel">
+  <p>Awesome. Please submit the details <a href="http://www.openvoyce.com/products/perftractor" target="_blank">here</a>.</p>
+</div>
+
+<button class="accordion">How to add new tools/solutions to the list?</button>
+<div class="panel">
+  <p>Excellento! Please submit the details <a href="http://www.openvoyce.com/products/perftractor" target="_blank">here</a>.</p>
+</div>
+
+<button class="accordion">I have an idea to implement.</button>
+<div class="panel">
+  <p>You are my favorite. Please contact me at contact [at] qainsights [dot] com</p>
+</div>
+
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script></body>
+</html>

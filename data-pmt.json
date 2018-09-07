@@ -1,0 +1,232 @@
+[{
+	"Company": "Dynatrace",
+	"Tool": "Dynatrace",
+	"logo": "dynatrace.png",
+	"Type": "Premium",
+	"Link": "https://www.dynatrace.com/pricing?ref=PerfTractor",
+	"Price": "$0.0105 per host / hour"
+}, {
+	"Company": "CISCO",
+	"Tool": "AppDynamics",
+	"logo": "cisco.png",
+	"Type": "Premium",
+	"Link": "https://www.appdynamics.com/pricing/us/?ref=PerfTractor",
+	"Price": "$330 per unit/ month"
+}, {
+	"Company": "New Relic",
+	"Tool": "New Relic APM",
+	"logo": "new relic.jpg",
+	"Type": "Premium",
+	"Link": "https://newrelic.com/application-monitoring/pricing?ref=PerfTractor",
+	"Price": "$16.67 per month for AWS instance"
+}, {
+	"Company": "BMC",
+	"Tool": "TrueSight",
+	"logo": "bmc.png",
+	"Type": "Premium",
+	"Link": "http://truesightpulse.bmc.com/pricing/?ref=PerfTractor",
+	"Price": "$8 per month"
+}, {
+	"Company": "LogicMonitor",
+	"Tool": "LogicMonitor",
+	"logo": "logic monitor.jpg",
+	"Type": "Premium",
+	"Link": "https://www.logicmonitor.com/pricing/?ref=PerfTractor",
+	"Price": "Free 14 days trial"
+}, {
+	"Company": "Stackify",
+	"Tool": "Retrace",
+	"logo": "stackify.png",
+	"Type": "Premium",
+	"Link": "https://stackify.com/retrace/?ref=PerfTractor",
+	"Price": "$10 per server per month"
+}, {
+	"Company": "CA Technologies",
+	"Tool": "CA Application Performance Management",
+	"logo": "ca.png",
+	"Type": "Premium",
+	"Link": "https://www.ca.com/us/trials/digital-experience-insights.html?ref=PerfTractor",
+	"Price": "Free 30 days trial"
+}, {
+	"Company": "Correlsense",
+	"Tool": "SharePath",
+	"logo": "correlsense.jpg",
+	"Type": "Premium",
+	"Link": "http://www.correlsense.com/product/pricing/?ref=PerfTractor",
+	"Price": "$15000 Annual"
+}, {
+	"Company": "HPE",
+	"Tool": "HPE Application Performance Management Solutions",
+	"logo": "HPE.png",
+	"Type": "Premium",
+	"Link": "https://saas.hpe.com/en-us/signup/try/application-performance-management?ref=PerfTractor",
+	"Price": "Free 60 days trial"
+}, {
+	"Company": "IBM",
+	"Tool": "IBM® Cloud Application Performance Management (APM)",
+	"logo": "ibm.png",
+	"Type": "Premium",
+	"Link": "https://www.ibm.com/us-en/marketplace/application-performance-management?ref=PerfTractor",
+	"Price": "Starting at $26.60 USD per month"
+}, {
+	"Company": "Microsoft",
+	"Tool": "Application Insights",
+	"logo": "Microsoft.png",
+	"Type": "Premium",
+	"Link": "https://azure.microsoft.com/en-us/pricing/details/application-insights/?ref=PerfTractor",
+	"Price": "Starting $15 per node"
+}, {
+	"Company": "Nastel Technologies",
+	"Tool": "AutoPilot",
+	"logo": "Nastel Technologies.png",
+	"Type": "Premium",
+	"Link": "https://www.nastel.com/application-performance-monitoring/?ref=PerfTractor",
+	"Price": "Contact"
+}, {
+	"Company": "Oracle",
+	"Tool": "Oracle Application Performance Monitoring Cloud Service",
+	"logo": "Oracle.gif",
+	"Type": "Premium",
+	"Link": "https://cloud.oracle.com/en_US/opc/application-performance-monitoring/pricing?ref=PerfTractor",
+	"Price": "Starting $250"
+}, {
+	"Company": "Riverbed",
+	"Tool": "SteelCentral",
+	"logo": "Riverbed.jpg",
+	"Type": "Premium",
+	"Link": "https://www.riverbed.com/products/steelcentral/application-performance-management.html?ref=PerfTractor",
+	"Price": "Contact"
+}, {
+	"Company": "Sematext",
+	"Tool": "Sematext SPM",
+	"logo": "Sematext.png",
+	"Type": "Premium",
+	"Link": "https://sematext.com/spm/#plans-and-pricing?ref=PerfTractor",
+	"Price": "Starting $0.036 per agent per hour"
+}, {
+	"Company": "Datadog",
+	"Tool": "Datadog APM",
+	"logo": "datadog.png",
+	"Type": "Premium",
+	"Link": "https://www.datadoghq.com/pricing/?ref=PerfTractor",
+	"Price": "Starting $15 per host per month"
+}, {
+	"Company": "SmartBear",
+	"Tool": "Alertsite",
+	"logo": "SmartBear.png",
+	"Type": "Premium",
+	"Link": "https://smartbear.com/product/alertsite/pricing/?ref=PerfTractor",
+	"Price": "Starting $199 per month"
+}, {
+	"Company": "Rollbar",
+	"Tool": "Rollbar",
+	"logo": "Rollbar.jpg",
+	"Type": "Premium",
+	"Link": "https://rollbar.com/pricing/?ref=PerfTractor",
+	"Price": "Starting $49 per month"
+}, {
+	"Company": "Nudge",
+	"Tool": "Nudge APM",
+	"logo": "Nudge.png",
+	"Type": "Premium",
+	"Link": "https://www.nudge-apm.com/en/#pricing?ref=PerfTractor",
+	"Price": "Starting 160 euro per agent per month"
+}, {
+	"Company": "Dynatrace",
+	"Tool": "Dynatrace AppMon Personal License",
+	"logo": "dynatrace.png",
+	"Type": "Free",
+	"Link": "https://www.dynatrace.com/trial/appmon?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "AppDynamics",
+	"Tool": "AppDynamics Lite",
+	"logo": "cisco.png",
+	"Type": "Free",
+	"Link": "https://www.appdynamics.com/lite/?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "BMC",
+	"Tool": "TrueSight",
+	"logo": "bmc.png",
+	"Type": "Free",
+	"Link": "http://truesightpulse.bmc.com/pricing/?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "Correlsense",
+	"Tool": "Correlsense Lite",
+	"logo": "correlsense.jpg",
+	"Type": "Free",
+	"Link": "http://www.correlsense.com/product/pricing/?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "Microsoft",
+	"Tool": "Application Insights",
+	"logo": "Microsoft.png",
+	"Type": "Free",
+	"Link": "https://azure.microsoft.com/en-us/pricing/details/application-insights/?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "Sematext",
+	"Tool": "Sematext SPM",
+	"logo": "Sematext.png",
+	"Type": "Free",
+	"Link": "https://sematext.com/spm/#plans-and-pricing?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "Datadog",
+	"Tool": "Datadog APM",
+	"logo": "datadog.png",
+	"Type": "Free",
+	"Link": "https://www.datadoghq.com/pricing/?ref=PerfTractor",
+	"Price": "Free up to 5 hosts"
+}, {
+	"Company": "Rollbar",
+	"Tool": "Rollbar",
+	"logo": "Rollbar.jpg",
+	"Type": "Free",
+	"Link": "https://rollbar.com/pricing/?ref=PerfTractor",
+	"Price": "Free for personal projects"
+}, {
+	"Company": "PinPoint",
+	"Tool": "PinPoint",
+	"logo": "pinpoint.png",
+	"Type": "Free",
+	"Link": "https://github.com/naver/pinpoint?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "inspectIT",
+	"Tool": "inspectIT",
+	"logo": "inspectit.png",
+	"Type": "Free",
+	"Link": "http://inspectit.rocks?ref=PerfTractor",
+	"Price": "Starting 499$/month\nfor support"
+}, {
+	"Company": "Zipkin",
+	"Tool": "Zipkin",
+	"logo": "zipkin.jpg",
+	"Type": "Free",
+	"Link": "http://zipkin.io/?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "Glowroot",
+	"Tool": "Glowroot",
+	"logo": "glowroot.png",
+	"Type": "Free",
+	"Link": "https://glowroot.org/?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "Scouter",
+	"Tool": "Scouter",
+	"logo": "scouter.png",
+	"Type": "Free",
+	"Link": "https://github.com/scouter-project/scouter?ref=PerfTractor",
+	"Price": "Free"
+}, {
+	"Company": "AppPerf",
+	"Tool": "AppPerf",
+	"logo": "AppPerf.png",
+	"Type": "Free",
+	"Link": "https://github.com/randy-girard/app_perf?ref=PerfTractor",
+	"Price": "Free"
+}]
