@@ -359,11 +359,11 @@
             }
         };
         loadData = function () {
-            $.getJSON('perftractor/perftractor/data.json', {}, function (result) {
+            $.getJSON('/data.json', {}, function (result) {
                 data = result;
                 data = data.sort(sortJson);
             });
-            $.getJSON('perftractor/perftractor/data-pmt.json', {}, function (result) {
+            $.getJSON('/data-pmt.json', {}, function (result) {
                 data_pmt = result;
             });
         };
