@@ -359,11 +359,11 @@
             }
         };
         loadData = function () {
-            $.getJSON('perftractor/data.json', {}, function (result) {
+            $.getJSON('https://qainsights.github.io/perftractor/data.json', {}, function (result) {
                 data = result;
                 data = data.sort(sortJson);
             });
-            $.getJSON('perftractor/data-pmt.json', {}, function (result) {
+            $.getJSON('https://qainsights.github.io/perftractor/data-pmt.json', {}, function (result) {
                 data_pmt = result;
             });
         };
