@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Compare Performance Testing Tool Prices</title>
     <meta charset="UTF-8">
@@ -54,7 +53,7 @@
             .w3-darkgrey a:hover {background-color: #1c1f22 !important; color: #fefefe!important;}
             .zero-padding{padding-left: 0; padding-right: 0;}
 </style>
-    </style>
+ 
 </head>
 
 <body>
@@ -360,11 +359,11 @@
             }
         };
         loadData = function () {
-            $.getJSON('data.json', {}, function (result) {
+            $.getJSON('perftractor/data.json', {}, function (result) {
                 data = result;
                 data = data.sort(sortJson);
             });
-            $.getJSON('data-pmt.json', {}, function (result) {
+            $.getJSON('perftractor/data-pmt.json', {}, function (result) {
                 data_pmt = result;
             });
         };
